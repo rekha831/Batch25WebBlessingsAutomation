@@ -19,7 +19,7 @@ public class LoginPageTest extends TestBase{
 		String userid=	prop.getProperty("userid");
 		String pwd=	prop.getProperty("password");
 		lgnpage.login(userid, pwd);
-		
+		System.out.println("test pass");
 	
 	}
 
