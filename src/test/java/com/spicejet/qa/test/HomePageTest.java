@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.spicejet.qa.page.HomePage;
-import com.spicejet.qa.page.LoginPage;
+import com.spicejet.qa.page.LoginLogout;
 
 public class HomePageTest extends TestBase{
 
@@ -20,7 +20,7 @@ public class HomePageTest extends TestBase{
 		HomePage homepage=new HomePage();
 	String actualTitle=	homepage.vaidateHomePageTitle();
 	String expectedTitle=	prop.getProperty("expectedTitle");
-	//Assert.assertEquals(actualTitle, expectedTitle);
+	Assert.assertEquals(actualTitle, expectedTitle);
 	}
 
 }
