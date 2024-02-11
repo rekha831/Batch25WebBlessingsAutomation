@@ -19,7 +19,7 @@ public class PageBase {
 
 		 prop = new Properties();
 		FileInputStream fi = new FileInputStream(
-				"C:\\Users\\User\\eclipse-workspace\\Batch24\\BlessingsBatch25WebFrameworkQA\\src\\main\\java\\com\\spicejet\\qa\\config\\configuration.properties");
+				"C:\\Prakash\\Batch25WebBlessingsAutomation\\src\\main\\java\\com\\spicejet\\qa\\config\\configuration.properties");
 		prop.load(fi);
 	}
 
@@ -41,7 +41,6 @@ public class PageBase {
 		driver.get(url);
 		Thread.sleep(3000);
 	}
-	
 	public void tearDown() {
 		driver.quit();
 	}
