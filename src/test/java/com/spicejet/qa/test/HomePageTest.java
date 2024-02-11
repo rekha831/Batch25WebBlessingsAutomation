@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.spicejet.qa.page.HomePage;
-import com.spicejet.qa.page.LoginPage;
+import com.spicejet.qa.page.LoginLogout;
 
 public class HomePageTest extends TestBase{
 
