@@ -21,6 +21,8 @@ public class HomePageTest extends TestBase{
 	String actualTitle=	homepage.vaidateHomePageTitle();
 	String expectedTitle=	prop.getProperty("expectedTitle");
 	Assert.assertEquals(actualTitle, expectedTitle);
+	
+System.out.println("Test");
 	}
 
 }
