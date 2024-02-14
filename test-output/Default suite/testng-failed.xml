@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.spicejet.qa.test.LoginPageTest">
+      <class name="com.spicejet.qa.test.HomePageTest">
         <methods>
           <include name="logOut"/>
-          <include name="loginPageTest"/>
+          <include name="vaidateHomePageTitle"/>
           <include name="setUp"/>
           <include name="BreakDown"/>
           <include name="loginTest"/>
         </methods>
-      </class> <!-- com.spicejet.qa.test.LoginPageTest -->
+      </class> <!-- com.spicejet.qa.test.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
