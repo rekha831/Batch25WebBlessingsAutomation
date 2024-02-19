@@ -7,15 +7,20 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.spiceject.qa.screenshot.CustomListereners;
 import com.spicejet.qa.base.PageBase;
 import com.spicejet.qa.page.LoginLogout;
+import com.spiceject.qa.screenshot.CustomListereners;
+@Listeners(CustomListereners.class)
 
 public class TestBase extends PageBase {
 	public TestBase() throws IOException {
 		super();
 	}
+	
 
 	@BeforeSuite
 	public void setUp() throws InterruptedException {
