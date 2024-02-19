@@ -6,6 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.spicejet.qa.test.TaxiPageTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="TGG"/>
+          <include name="setUp"/>
+          <include name="BreakDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.spicejet.qa.test.TaxiPageTest -->
       <class name="com.spicejet.qa.test.LoginPageTest">
         <methods>
           <include name="logOut"/>
@@ -15,6 +24,24 @@
           <include name="loginTest"/>
         </methods>
       </class> <!-- com.spicejet.qa.test.LoginPageTest -->
+      <class name="com.spicejet.qa.test.CargoPageTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="setUp"/>
+          <include name="BreakDown"/>
+          <include name="loginTest"/>
+          <include name="cargotest"/>
+        </methods>
+      </class> <!-- com.spicejet.qa.test.CargoPageTest -->
+      <class name="com.spicejet.qa.test.HomePageTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="vaidateHomePageTitle"/>
+          <include name="setUp"/>
+          <include name="BreakDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.spicejet.qa.test.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
