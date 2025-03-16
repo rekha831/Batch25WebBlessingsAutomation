@@ -20,7 +20,7 @@ public class LoginPageTest extends TestBase{
 
 	@Test
 	public void loginPageTest() throws IOException {
-		int j=10/0;
+	
 	}
 
 }
