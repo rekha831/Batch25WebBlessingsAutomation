@@ -41,6 +41,8 @@ public class LoginLogout extends PageBase{
 		 */
 		ut.clickJSElement(loginBtn);
 		return true	;
+		
+		
 	}
 
 }
